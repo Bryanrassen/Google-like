@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px !important;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.icon {
+    width: 16px;
+    height: 16px;
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.left, .middle, .right {
+    flex: 1;
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.image-google {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item {
+    font-size: 20px;
+    padding: 16px;
+    display: inline-block;
+  }
+
+
+#google-search {
+    border: none;
+    width: 87%;
+}
+
+
+.search {
+    text-align: center;
+    border: solid 1px grey;
+    border-radius: 15px;
+    width: 35%;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.sub_search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.country {
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 15px;
+    font-size: 14px !important;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.sub_search button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+header button {
+
+    background-color: #4285f4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    font-size: 15px;
+
+
+}
