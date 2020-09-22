@@ -46,12 +46,10 @@ footer {
 .right {
     text-align: right;
 }
-
 .left {
     text-align: left;
     padding-left: 15px;
 }
-
 
 .image-google {
     margin-top: 100px;
@@ -65,12 +63,10 @@ footer {
     display: inline-block;
   }
 
-
 #google-search {
     border: none;
     width: 87%;
 }
-
 
 .search {
     text-align: center;
@@ -83,13 +79,10 @@ footer {
     margin-right: auto;
 }
 
-
-
 .sub_search {
     text-align: center;
     margin-top: 20px;
 }
-
 
 .country {
     background-color: #f2f2f2;
